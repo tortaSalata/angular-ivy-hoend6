@@ -4,7 +4,8 @@ import { Component } from '@angular/core';
 //@Componente è un decorator, è una funzione
 @Component({
   selector: 'pippo', //elementi a cui collegare il component
-  //ciò che viene visualizzato all'interno dell'elemento
+
+  //struttura html contenuta negli elementi selettori
   templateUrl: './app.component.html', //back-tick consente di scrivere codice html su più linee
 })
 
@@ -12,4 +13,5 @@ import { Component } from '@angular/core';
 //creazione di una classe
 export class AppComponent {
   name = 'Angular ';
+  cognome = 'Grav';
 }
